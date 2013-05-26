@@ -19,9 +19,7 @@ test:
   timeout: 5000
 
 production:
-    adapter:
+    adapter: postgresql
     encoding: utf8
-    database:
-    username:
-    password:
-    host: localhost
+    database: cake_blog
+    username: deploy

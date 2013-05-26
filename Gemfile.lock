@@ -1,9 +1,3 @@
-GIT
-  remote: git://github.com/rsl/stringex.git
-  revision: 26883df41d1f44470fc9dd7461b353e9964c7900
-  specs:
-    stringex (1.5.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,6 +150,7 @@ GEM
       tilt (~> 1.1, != 1.3.0)
     sqlite3 (1.3.7)
     sqlite3 (1.3.7-x86-mingw32)
+    stringex (1.5.1)
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -191,9 +186,9 @@ DEPENDENCIES
   rails (~> 3)
   rails_best_practices (~> 1)
   redcarpet
-  sass-rails
+  sass-rails (~> 3.2.6)
   spork (~> 0.9)
   sqlite3 (~> 1)
-  stringex (~> 1)!
+  stringex (~> 1.5.1)
   thin (~> 1)
   uglifier (~> 1)

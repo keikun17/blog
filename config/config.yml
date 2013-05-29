@@ -1,5 +1,5 @@
 ---
-title:               RedProtoss
+title:               Red Protoss
 tagline:             Buddy Magsipoc
 login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "username" %>
 password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "password" %>

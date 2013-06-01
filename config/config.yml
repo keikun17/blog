@@ -6,5 +6,5 @@ password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "pass
 name:                Cakey
 twitter:             keikun17
 github:              keikun17
-email:               address@example.com
-google_analytics_id: YOUR_GA_ID
+# email:               address@example.com
+# google_analytics_id: YOUR_GA_ID
